@@ -58,7 +58,8 @@ curl -fsSL https://opencode.ai/install | bash
 - `Big Pickle`（官方匿名模型）
 - `Qwen3 Coder Free`、`Kimi K2 Free` 等
 
-![实测：GLM-5.3-Flash Free 免登录直聊](images/glm-free-tui.png)
+<img width="1730" height="924" alt="glm-free-tui" src="https://github.com/user-attachments/assets/87629e5a-d65f-4252-a4c0-9dae73197db6" />
+
 
 > 实测：TUI 里选中 GLM-5.3-Flash Free 直接开聊，无 API key、无登录。
 
@@ -121,7 +122,8 @@ temperature: 0.1
 2. **正文**就是 system prompt；
 3. 保存后验证：`opencode agent list` 输出 `my-agent (primary)` 即成功。
 
-![实测：自定义 code-reviewer 角色按人设输出审查意见](images/agent-demo.png)
+<img width="1713" height="591" alt="agent-demo" src="https://github.com/user-attachments/assets/a31bc4a7-461f-48bd-af73-07cee43e51e3" />
+
 
 > 实测：写好 `code-reviewer.md` 后一条命令调用（GLM-5.3-Flash Free），模型严格按人设输出——按严重度排序、带行号、一句总评，行为完全被 Markdown 定义。
 
